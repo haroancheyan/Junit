@@ -73,7 +73,7 @@ public class MobilePurchase extends Sample {
 		String product4 = element2.getText();
 		System.out.println("Selected product is "+product4);
 		
-        File fn = new File("C:\\Users\\haroa\\eclipse-workspace\\ModelProject\\src\\test\\resources\\ExcelWrite1.xls");
+        File fn = new File("C:\\Users\\haroa\\eclipse-workspace\\ModelProject\\src\\test\\resources\\ExcelWriteHSSworkbook.xls");
 	    Workbook w1 = new HSSFWorkbook();
 	    Sheet s1 = w1.createSheet("haroan");
  	    Row r1 =s1.createRow(0);
